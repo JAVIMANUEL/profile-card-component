@@ -1,0 +1,26 @@
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --Name-stats-front-size: 10px;
+
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.profile-card {
+    border-radius: 8px;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.profile-card-top{
+    background-image: url("https://profile-card-component-seven-pi.vercel.app/images/bg-pattern-card.svg");
+}
