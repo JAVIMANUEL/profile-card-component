@@ -1,4 +1,3 @@
-
 :root{
     --Dark-cyan: hsl(185, 75%, 39%);
     --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
@@ -6,8 +5,8 @@
     --Dark-grayish-blue: hsl(227, 10%, 46%);
     --Dark-gray: hsl(0, 0%, 59%);
     --Name-stats-front-size: 10px;
-
 }
+html,
 body{
     margin: 0;
     box-sizing: border-box;
@@ -22,5 +21,28 @@ body{
     
 }
 .profile-card-top{
-    background-image: url("https://profile-card-component-seven-pi.vercel.app/images/bg-pattern-card.svg");
+    background-image: url("../assets/bg-pattern-card.svg");
+
+}
+.profile-card-top img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.profile-card-buttom-seguidores{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--Dark-grayish-blue);
+}
+.profile-card-buttom-seguidores div p:nth-child(1)
+{
+    font-size: var(--Name-stats-front-size);
+    font-weight: 700;
+    text-align: center;
+
+}
+.profile-card-buttom-seguidores div p:nth-child(2){
+    font-weight: 400;
+    color: var(--Dark-gray);
+    font-size: 14px;
+    text-align: center;
 }
